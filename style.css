@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&display=swap");
+.body {
+  margin: 0;
+  padding: 0;
+}
+.arkaplan {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./asset/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  overflow-x: hidden;
+  position: absolute;
+}
+.boy {
+  height: 200px;
+  margin-top: 325px;
+  position: absolute;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-top: 425px;
+  background-image: url(./asset/dragon.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.score {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.end {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-image: linear-gradient(90deg, #114232 0%, #fcdc2a 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  font-weight: bold;
+  color: #35374b;
+  font-family: "Kavoon", serif;visibility: hidden;
+}
+.btn {
+  height: 50px;
+  width: 300px;
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 700;
+  background-color: #35374b;
+  border: none;
+  color: #fcdc2a;
+  border-radius: 20px;
+  font-family: "Kavoon", serif;
+}
+.btn:hover{
+  height: 50px;
+  width: 305px;
+  background-color: #ccb221;
+  cursor: pointer;
+  color: #35374b;
+  transform: scale(1.1);
+  transition: all 1 ease;
+}
